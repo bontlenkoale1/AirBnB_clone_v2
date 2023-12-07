@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 """
 Fabric script that distributes an archive to your web servers
 """
