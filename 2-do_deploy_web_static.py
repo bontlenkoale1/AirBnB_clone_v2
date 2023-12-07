@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/bash
 """
 Fabric script that distributes an archive to your web servers
 """
@@ -9,7 +9,7 @@ from datetime import datetime
 
 env.hosts = ['18.209.180.39', '54.160.95.41']
 env.user = 'ubuntu'
-env.key_filename = '~/.ssh/school'
+env.key_filename = "$HOME/.ssh/school"
 
 
 def do_pack():
